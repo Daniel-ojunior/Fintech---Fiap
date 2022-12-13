@@ -1,0 +1,33 @@
+*{
+
+    background-color: #7D8F57;
+    color: #FFFFFF;
+    
+}
+
+
+.row a {
+
+    color: unset;
+    text-decoration: none;
+}
+
+.row a:hover {
+
+    color: unset;
+    text-decoration: none;
+}
+
+h1{
+
+    display:flex;
+    justify-content:center;
+    padding-bottom:3px;
+}
+
+
+
+
+
+
+

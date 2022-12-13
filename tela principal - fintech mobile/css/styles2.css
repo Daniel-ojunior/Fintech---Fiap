@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+
+    height: 204px;
+    background-color: #7D8F57;
+    border-radius: 0px 0px 5px 5px;
+    display: flex;
+    align-items: center;
+}
+header h1 {
+
+    font-size: 18px;
+    color: #065B19;
+}
+
+.user img{
+
+    width: 70px;
+    height: 70px;
+}
+
+.container{
+
+    width: 100%;
+    margin: 0 auto;
+    max-width: 960px;
+    height: 100%;
+    padding: 10px;
+}
+
+.user {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.config{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+
+}
+
+.config img{
+
+    width: 25px;
+    height: 25px;
+}
+
+.values{
+
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+
+
+}
+
+.values img {
+
+    width: 25px;
+    height: 25px;
+}
+
+.values p {
+
+    font-size: 20px;
+}
+
+.option h2{
+
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+.option{
+
+    padding-top: 3px;
+}
+
+
+.btn-light {
+    --bs-btn-color: #000;
+    --bs-btn-bg: #4945474d;
+
+}
